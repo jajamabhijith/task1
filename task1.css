@@ -1,0 +1,228 @@
+      p {
+        margin:0px;
+      }
+      .mainbody {
+        display:flex;
+        flex-direction: column;
+        border-style: solid;
+        height:500px;
+        align-items: center;
+        width:520px;
+        margin: auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius:10px;
+        background-color: white;
+        border-width:2px;
+        border-style:solid;
+      }
+      .mainbody:hover {
+        border-color: greenyellow;
+        cursor:pointer;
+      }    
+      .black {
+        display: flex;
+        flex-direction: row;
+        background-color:black;
+        width:516px;
+        height:10px;
+        justify-content: baseline;
+        margin-bottom:0px;
+        border-top-right-radius:9px;
+        border-top-left-radius:10px;
+        border-style: solid;
+        margin-top:0px;
+      }
+      .text1{
+        display: flex;
+        flex-direction: row;
+        background-color: #656CEC;
+        position: relative;
+        top:0px;
+        width:520px;
+        margin:0px;
+        justify-content: center;
+        color:white;
+        font-size:30px;
+        border-bottom-style:solid;
+        border-bottom-width:1px;
+      }
+      .text1:hover {
+        border-width:1px;
+        border-style: solid;
+        border-color:rgb(0, 153, 255);
+      }
+      .top {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        margin-bottom: 0px;
+        width:520px;
+        background-color: #656CEC;
+        height:160px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        border-bottom-width: 2px; 
+      }
+      .top:hover {
+        border-bottom-style: solid;
+        border-color: greenyellow;
+      }
+      .rank1,.rank2,.rank3 {
+        display:flex;
+        flex-direction:column;
+        color:white;
+        justify-content:space-evenly;
+      }
+      .second,.third {
+        margin-left:40px;
+        margin-top:20px;
+        font-size:13px;
+        width:15px;
+        border-radius:7.5px;
+        background-color: #BABEFF;
+        text-align: center;
+      }
+      .second:hover,.third:hover,.first:hover {
+        border-color: rgb(0, 153, 255);
+        border-width:0.75px;
+        border-style: solid;
+      }
+      .second-pic,.third-pic {
+        width:80px;
+        height:80px;
+        background-color: #BABEFF;
+        border-radius:40px;
+        border-width:2px;
+        border-color: white;
+        border-style: solid;
+        margin-left:5px;
+        margin-right:5px;
+      }
+      .second-pic:hover {
+        .second-inner-radius-color {
+          border-color:rgb(0, 153, 255);
+        }
+      }
+      .second-inner-radius-color,.third-inner-radius-color {
+        margin-top:0px;
+        margin-left:0px;
+        width:76px;
+        height:76px;
+        background-color:#BABEFF;
+        border-radius:38px;
+        border-width:2px;
+        border-color:#BABEFF;
+        border-style: solid;
+      }
+      .second-name,.third-name {
+        padding-top:3px ;
+        margin-left:11.5px;
+        width:70px;
+        border-radius:10px;
+        font-size:10px;
+        background-color:#BABEFF;
+        text-align: center;
+      }
+      .first {
+        margin-left:50px;
+        font-size:13px;
+        width:15px;
+        border-radius:7.5px;
+        background-color: #BABEFF;
+        text-align: center;
+      }
+      .first-pic {
+        width:100px;
+        height:100px;
+        background-color: #BABEFF;
+        border-radius:50px;
+        border-width:3px;
+        border-color: white;
+        border-style: solid;  
+        margin-left:5px;
+        margin-right:5px;
+      }
+      .first-pic:hover {
+        .first-inner-radius-color {
+          border-color:rgb(0, 153, 255);
+        }
+      }
+      .first-inner-radius-color {
+        margin-top:0px;
+        margin-left:0px;
+        width:96px;
+        height:96px;
+        background-color:#BABEFF;
+        border-radius:48px;
+        border-width:2px;
+        border-color:#BABEFF;
+        border-style: solid;
+      }
+      .first-name {
+        padding-top: 2px;
+        margin-left:22px;
+        width:70px;
+        border-radius:10px;
+        font-size:10px;
+        background-color:#BABEFF;
+        text-align: center;
+      }
+      .third-pic:hover {
+        .third-inner-radius-color {
+          border-color:rgb(0, 153, 255);
+        }
+      }
+      .bottom {
+        margin-top:10px;
+        height:280px;
+        width:520px;
+        border-width:0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .Joe,.Josh,.Jenny,.Stella,.Sally {
+        display:flex;
+        flex-direction:row;
+        width:100%;
+        background-color:#D2D4F2;
+      }
+      .Joe:hover,.Josh:hover,.Jenny:hover,.Stella:hover,.Sally:hover {
+        border-color:rgb(0, 153, 255) ;
+        border-width:1px;
+        border-style: solid;
+      }
+      .rank {
+        margin-top:10px;
+        margin-left:10px;
+      }
+      .pic {
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-left:20px;
+        width:30px;
+        height:30px;
+        border-radius:15px;
+        background-color: #BABEFF;
+        border-width:1px ;
+        border-color:white;
+        border-style:solid;
+      }
+      .pic:hover {
+        border-color:rgb(0, 153, 255) ;
+      }
+      .name {
+        margin-top:10px;
+        margin-left: 20px;
+      }
+      .marks {
+        position: absolute;
+        right:600px;
+        margin-left: 300px;
+        margin-top:10px;
+      }
+      .second-num:hover,.first-num:hover,.third-num:hover,.rank:hover,.name:hover,.marks:hover,.top-name:hover,.score:hover {
+        text-decoration: underline;
+        text-decoration-color: black;
+      }
+    
