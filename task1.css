@@ -215,13 +215,25 @@
         margin-top:10px;
         margin-left: 20px;
       }
-      .marks {
-        position: absolute;
-        right:600px;
-        margin-left: 300px;
+      .marks4,.marks5,.marks6,.marks7,.marks8 { 
         margin-top:10px;
       }
-      .second-num:hover,.first-num:hover,.third-num:hover,.rank:hover,.name:hover,.marks:hover,.top-name:hover,.score:hover {
+      .marks4 {
+        margin-left:300px;
+      }
+      .marks5 {
+        margin-left:285px ;
+      }
+      .marks6 {
+        margin-left:295px ;
+      }
+      .marks7 {
+        margin-left: 288px;
+      }
+      .marks8 {
+        margin-left: 290px;
+      }
+      .second-num:hover,.first-num:hover,.third-num:hover,.rank:hover,.name:hover,.marks4:hover,.marks5:hover,.marks6:hover,.marks7:hover,.marks8:hover,.top-name:hover,.score:hover {
         text-decoration: underline;
         text-decoration-color: black;
       }
